@@ -1,0 +1,13 @@
+#fff{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.container-fluid {
+    height: 100vh;
+}
+
+.small-placeholder::placeholder {
+    font-size: 14px; /* Adjust the size as needed */
+    color: #999; /* Optional: change color for visibility */
+}

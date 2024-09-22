@@ -66,8 +66,12 @@
 }
 
 /* Mission about products styling */
+#mc{
+    margin-top: 14%;
+    margin-bottom: 6%;
+}
 .mission-container {
-    margin-top: 5%;
+    margin-top: 100%;
     margin-bottom: 8%;
 }
 

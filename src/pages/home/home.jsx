@@ -30,27 +30,6 @@ function Home() {
 
 
 
-      {/* best sellers section */}
-      <section className='hidden' id='best-sellers-section'>
-        <div className="container text-center">
-          <h2>MEET OUR BEST SELLERS</h2>
-          <div className="row">
-            {bestSellerProducts.map((product, index) => (
-              <div key={index} className="product-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
-                <ProductCards
-                  src={product.imageSrc}
-                  name={product.name}
-                  price={product.price}
-                  id={product.id}
-                  category={product.category}
-                />
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-
       <div id='imgg-p'>
         <h2 id='a'>Receive  custom proposals from multiple designers</h2>
         <p id='b'> Choose your favorite professional designer to help translate your vision.</p>
@@ -64,9 +43,8 @@ function Home() {
 
 
       {/* mission section */}
-      <div className="hidden mission-container container text-center mt-6">
-        <br />
-        <br /><br /><br />
+      <div className="hidden mission-container container text-center mt-12" id='mc'>
+
         <h4>About Our Products</h4>
         <div className="row justify-content-center">
           <div className="col-lg-5 col-md-6 col-sm-12">
@@ -84,8 +62,36 @@ function Home() {
 
 
 
+
+
+
+      {/* best sellers section */}
+      <section className='hidden' id='best-sellers-section'>
+        <div className="container text-center">
+          <h2>Meet Our Best Sellers</h2>
+          <div className="row">
+            {bestSellerProducts.map((product, index) => (
+              <div key={index} className="product-div col-xl-3 col-lg-4 col-md-6 col-sm-6 col-12">
+                <ProductCards
+                  src={product.imageSrc}
+                  name={product.name}
+                  price={product.price}
+                  id={product.id}
+                  category={product.category}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
       <div className="container text-center my-5">
-        <h2 className="sponsor-heading">Meet Our Sponsors</h2>
+        <h2 className="sponsor-heading">Our Sponsors</h2>
 
         <div className="row justify-content-center">
           {/* Row with 3 logos on large screens */}

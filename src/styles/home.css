@@ -234,13 +234,16 @@
   
   @media (max-width: 768px) {
     .sponsor-logo {
-      max-width: 120px; /* Reduce logo size on smaller screens */
+      max-width: 100px;
+      margin-bottom: 30px; /* Reduce logo size on smaller screens */
     }
   }
   
   @media (max-width: 576px) {
     .sponsor-logo {
       max-width: 100px; /* Further reduce size on mobile */
+      margin-bottom: 30px; /* Reduce logo size on smaller screens */
+
     }
   }
   

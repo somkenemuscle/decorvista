@@ -15,7 +15,7 @@ function carousel() {
                 <div className="carousel-item active">
                     <div className="row">
                         <div className="col-xl-8 col-md-7 col-sm-12">
-                            <img src='https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' className="img-fluid small-image d-block w-100" alt="..." />
+                            <img src='https://images.unsplash.com/photo-1507089947368-19c1da9775ae?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D  ' className="img-fluid small-image d-block w-100" alt="..." />
                         </div>
                         <div className="carousel-text-bg col-xl-4 col-md-5 col-sm-12">
                             <h2>Bring Your Vision to  <span style={{

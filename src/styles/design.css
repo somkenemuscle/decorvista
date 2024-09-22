@@ -75,13 +75,34 @@
   text-decoration: underline;
 }
 
-#df{
+#df {
   margin-top: 30%;
 }
+
 .portfolio-link:hover {
   text-decoration: underline;
 }
 
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20px;
+  /* or any height based on your layout */
+
+
+}
+
+#lc {
+  box-shadow: inset 0px 4px 10px rgba(0, 0, 0, 0.2);
+  /* Inset shadow */
+  background-color: black;
+  /* Optional background color */
+  border-radius: 10px;
+  /* Optional for rounded corners */
+  padding: 8px;
+  padding-right: 14px;
+}
 
 .fullname {
   font-size: 18px;

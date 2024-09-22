@@ -28,7 +28,7 @@ function Feedback() {
                 <div className="carousel-item">
                     <div className="d-block w-100">
                         <p>"DecorVistas curtains have added such a cozy and stylish touch to my bedroom. The fabric is top-notch, and the installation was so easy. I love how they control the lighting perfectly while still looking gorgeous. I couldn’t be happier with my purchase!"</p>
-                        <h6><strong>Lionel Messi</strong></h6>
+                        <h6><strong>Olmo Dani. P</strong></h6>
                     </div>
                 </div>
 
@@ -44,7 +44,7 @@ function Feedback() {
 
             </div>
             <Link to='/feedback'>
-                <button id='review-btn'>Leave Review</button>
+                <button id='review-btn'>Leave A Review!</button>
             </Link>
 
         </div>

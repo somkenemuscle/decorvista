@@ -2,6 +2,7 @@
     text-align: center;
     margin-top: 20%;
     margin-bottom: 5%;
+    font-family: monospace;
 }
 
 .carousel-control-prev-icon,
@@ -19,6 +20,11 @@
     margin-left: 20%;
     margin-right: 20%;
 }
+#fb-hd{
+    margin-bottom: 5%;
+    font-weight: 700;
+    font-size: 20px;
+}
 
 .feedb h6 {
     font-weight: bold;
@@ -27,7 +33,7 @@
 #review-btn{
     background-color: black;
     color: white;
-    padding: 8px;
+    padding: 10px;
     border: none;
     margin-top: 4%;
     font-weight: 500;

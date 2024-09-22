@@ -74,6 +74,8 @@
 .mission-container h4 {
     font-weight: bold;
     margin-bottom: 2%;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 .mission-icons {
@@ -200,6 +202,49 @@
     width: 100%;
 }
 
+
+
+.sponsor-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(46, 45, 45);
+    font-family: monospace;
+    margin-bottom: 70px;
+  }
+  
+  .sponsor-logo {
+    width: 100%;
+    max-width: 100px;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+  
+  .sponsor-logo:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+  }
+  
+  .row .col-lg-3, .col-md-3, .col-sm-6 {
+    padding: 0 10px; /* Reduce padding between the logos */
+  }
+  
+  .mb-2 {
+    margin-bottom: 8px; /* Reduce margin between the logos */
+  }
+  
+  @media (max-width: 768px) {
+    .sponsor-logo {
+      max-width: 120px; /* Reduce logo size on smaller screens */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .sponsor-logo {
+      max-width: 100px; /* Further reduce size on mobile */
+    }
+  }
+  
+  
 /* media width styling */
 
 @media screen and (max-width: 410px) {

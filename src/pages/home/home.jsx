@@ -84,6 +84,47 @@ function Home() {
 
 
 
+      <div className="container text-center my-5">
+        <h2 className="sponsor-heading">Meet Our Sponsors</h2>
+
+        <div className="row justify-content-center">
+          {/* Row with 3 logos on large screens */}
+          <div className="col-lg-3 col-md-3 col-sm-6 mb-2 px-2">
+            <img
+              src="https://cdn.decorilla.com/s3cdn/static/img/asseen/the-wall-street-journal-logo.png"
+              alt="Sponsor 1"
+              className="sponsor-logo"
+            />
+          </div>
+
+          <div className="col-lg-3 col-md-3 col-sm-6 mb-2 px-2">
+            <img
+              src="https://cdn.decorilla.com/s3cdn/static/img/asseen/dwell-logo.png"
+              alt="Sponsor 2"
+              className="sponsor-logo"
+            />
+          </div>
+
+          <div className="col-lg-3 col-md-3 col-sm-6 mb-2 px-2">
+            <img
+              src="https://cdn.decorilla.com/s3cdn/static/img/asseen/AD_Architectural_Digest_Logo-2.png"
+              alt="Sponsor 3"
+              className="sponsor-logo"
+            />
+          </div>
+
+          <div className="col-lg-3 col-md-3 col-sm-6 mb-2 px-2">
+            <img
+              src="https://cdn.decorilla.com/s3cdn/static/img/asseen/hgtv-logo.png"
+              alt="Sponsor 4"
+              className="sponsor-logo"
+            />
+          </div>
+        </div>
+      </div>
+
+
+
 
       {/* feedback option */}
       <div className='hidden container'>

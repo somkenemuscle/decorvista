@@ -75,11 +75,12 @@ const DesignerPage = () => {
           )}
         </div>
 
-        <footer id='df'>
+      </div>
+
+      <footer id='df'>
           <Footer />
 
         </footer>
-      </div>
     </div>
 
   );

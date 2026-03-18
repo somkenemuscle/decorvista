@@ -3,7 +3,7 @@ import axios from 'axios';
 
 
 // Create an instance of axios with default settings
-const axiosInstance = axios.create({
+const axiosInstance = axios.create({h
     baseURL: 'https://decorvista-backend.vercel.app/api',
     withCredentials: true,
 });
@@ -15,7 +15,7 @@ axiosInstance.interceptors.response.use(
         const { response } = error;
         const originalRequest = response?.config;
 
-        // Check if the error status is 401 and if it is related to token expiration
+        // Check if the error status is 401 
         if (response?.status === 401 && !originalRequest?._retry) {
             originalRequest._retry = true;
             const errorCode = response.data?.code;
